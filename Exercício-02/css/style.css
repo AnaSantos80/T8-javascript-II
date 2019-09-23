@@ -24,4 +24,12 @@ body {
 .item__imagem {
     width: 150px;
     margin: 0 auto;
+    
+   
 }
+
+.hide {
+    display:none;
+ }
+
+
