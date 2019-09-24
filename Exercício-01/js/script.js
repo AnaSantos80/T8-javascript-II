@@ -2,7 +2,7 @@ const alunas = ["Raquel Pereira", "Talita Barbosa", "Lia Lobo", "Diana Moraes", 
 
 const lista = document.getElementById("lista-alunas");
 
-//maneira mais simplificada que a que está abaixo
+//maneira mais simplificada que a localizada abaixo
 alunas.forEach(function(aluna) {
     let item = document.createElement("li");
 
@@ -11,13 +11,16 @@ alunas.forEach(function(aluna) {
     lista.appendChild(item);
 })
 
-let soma = 0;
 
-const meuTitulo = document.querySelector(".titulo");
 
+// let soma = 0;
 // meuTitulo.addEventListener("click", function logar(){
 //     console.log(soma++)
-// }); não irá contar mais os cliques irei alterar a cor do título
+// });
+
+// não irá contar mais os cliques irei alterar a cor do título
+
+const meuTitulo = document.querySelector(".titulo");
 
 meuTitulo.addEventListener("click", function (){
     // meuTitulo.getElementsByClassName.color = "red";
