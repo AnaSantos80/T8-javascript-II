@@ -9,9 +9,11 @@ muitosGatos.forEach(function(gato) {
     //Para o gato aparecer novamente
 
     if (gato.classList.contains("invisivel")) {
-    pego a classe e vejo se retorna verdadeiro ou falso, o contains retorna uma lista
-    
-}
+    //pego a classe e vejo se retorna verdadeiro ou falso, o contains retorna uma lista
+        gato.classList.remove("invisivel");     
+    } else {
+        gato.classList.add("invisivel");
+    }
 
 
     })
