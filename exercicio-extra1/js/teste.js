@@ -54,7 +54,8 @@ const eu = {
 
 // tenho que criar paragrafo, dar conteúdo e dizer onde o paragrafo vai ficar.
 
-// propriedade são os elementos: nome, idade.
+// propriedade são os elementos: nome, idade etc. Propriedade funciona como variável
+
 // objeto- eu, é sempre o nome que atribuo.
 
 // método recebe como uma string a tag que eu quero criar.

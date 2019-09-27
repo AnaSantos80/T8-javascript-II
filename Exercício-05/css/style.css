@@ -76,6 +76,10 @@ body {
     padding: 10px 15px 11px;
     margin: 0 5px 0 40%;
     color: #fff;
+    }
+
+.botao-vermelho {
+    background-color: red;
 }
 
 @media(min-width: 400px) {
@@ -91,5 +95,7 @@ body {
     padding: 0;
     margin: 0 5px;
     color: #757575;
-    font-size: 12px;
+    font-size: 12px;  
+    
 }
+

@@ -19,8 +19,7 @@ muitosGatos.forEach(function(gato) {
     })
 })
 
-// Como fazer com o for comum
-
+// Como fazer com o for comum:
 /*
 for (let i=0; i<muitosGatos.length; i++) {
     muitosGatos[i].addEventListener("click", function() {

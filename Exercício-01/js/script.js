@@ -10,7 +10,7 @@ alunas.forEach(function(aluna) {
 
 
     // é um metodo só para o Array, qualquer array que eu quiser percorrer uso o (forEach)
-    // o parametro (aluna) é cada item 
+    // o parâmetro (aluna) é cada item 
 
     let item = document.createElement("li");
     // eu crio a graveta (let item) eu peço p o DOM criar um novo elemento eu guardo esse elemento na gaveta.Array
@@ -42,7 +42,7 @@ meuTitulo.addEventListener("click", function (){
 })
 
 
-//"aluna" cada parametro que ele vai pegar
+//"aluna" cada parâmetro que ele vai pegar
 //"alunas" Array
 
 
