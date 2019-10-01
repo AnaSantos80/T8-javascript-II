@@ -56,7 +56,7 @@ for (let propriedade in livros) {
     btn.addEventListener("click", function () {
         // Verifica se o título já está marcado como lido
         if (titulo.classList.contains("livro__titulo--lido")) {
-            // marco o títuloo com onão lido
+            // marco o títuloo com bonão lido
             titulo.classList.remove("livro__titulo--lido");
             // Volto o botão para verde e volto o texto inicial
 
